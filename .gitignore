@@ -1,0 +1,9 @@
+# Never commit these: they hold OEM firmware files, unit backups and logs with
+# device identifiers, or binaries/files that come from other projects.
+/car-data/*
+!/car-data/README.md
+/inputs/*
+!/inputs/README.md
+/build/
+__pycache__/
+*.pyc

@@ -1,0 +1,5 @@
+# The head unit's shell cannot run CRLF scripts: keep LF on every platform.
+* text=auto eol=lf
+*.jar binary
+*.so binary
+*.jxe binary
